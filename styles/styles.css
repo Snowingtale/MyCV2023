@@ -1,0 +1,128 @@
+body {
+    background-color: #EBDEF0;
+    font-family: 'Montserrat', sans-serif;
+}
+.about_me_profession{
+    font-size: 25px;
+    color: white;
+    
+}
+.main_section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:white;
+}
+.projects_section{
+    background-color:;
+    
+}
+.sidebar_section{
+    background-color:#280202f5 ;
+    width: 370px;
+    
+    
+}
+.work_experience_section{
+    background-color: ;
+}
+.about_me_section{
+   
+}
+
+.div_nou{
+    display: grid;
+    grid-template-columns: 370px repeat(1,minmax(0,1fr)) ;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: #E7F1F1;
+    
+
+    
+}
+.sidebar_section img{
+margin-top: 40px;
+width: 370px;
+}
+
+.sidebar_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color:#fff ;
+    
+}
+.contact_section, .tech_skills_section,.soft_skills_section{
+margin-left: 40px;
+}
+.contact_section_type{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+
+}
+.contact_section_value{
+    font-size: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #00F9FF;
+
+}
+
+.tech_skills_section,.soft_skills_section .sidebar_list{
+    color: red;
+
+}
+.tech_skills_section .sidebar_list li span,.soft_skills_section .sidebar_list li span{
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.sidebar_list{
+    padding-left: 15px ;
+}
+.case_style{
+    border-width: 1px;
+    border-color: black;
+    border-radius: 0.5rem;
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background-color:#280202f5;
+    color: #fff;
+}
+.case_layout{
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.basic_stats{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+
+}
+.small_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16 px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
